@@ -1,0 +1,293 @@
+@font-face {
+    font-family: "catamaran";
+    src: url('../Catamaran/Catamaran-VariableFont_wght.ttf');
+}
+
+
+body{
+    background-color: white;
+    background-image: url('/images/fresh-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 50%;
+    background-position: center;
+}
+
+nav{
+
+    width: 100%;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.49);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    justify-content: center;
+    margin: auto;
+    cursor: pointer;
+}
+nav svg{
+    width: 30px;
+}
+.option{
+    opacity: 60%;
+}
+.option:hover{
+    opacity: 100%;
+    border-bottom: 2px solid #FF7F00;
+}
+.active{
+    fill: #FF7F00;
+    stroke: #FF7F00;
+    border-bottom: 2px solid #FF7F00;
+}
+
+.non-active{
+    color: black;
+}
+.logo{
+    width: 120px;
+    position: fixed;
+}
+.search-btn-active{
+    width: 25px;
+    top: 100px;
+    right: 30px;
+    position: fixed;
+}
+.search-btn-active:hover{
+    stroke: #FF7F00;
+    transition: 500ms;
+}
+.search-passive{
+    display: block;
+}
+.search-active{
+    width: 100px;
+    top: 102px;
+    right: 60px;
+    position: fixed;
+    opacity: 80%;
+}
+.product{
+    background: none;
+    border: 3px solid grey;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    display: table-cell;
+    padding-left: 2em;
+    margin-top: 20px;
+    position: relative;
+}
+
+
+.product-main{
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    padding-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.favorite-button{
+    margin-left: 160px;
+    margin-top: 5px;
+    height: 30px;
+    width: 30px;
+    color: white;
+    fill: transparent;
+}
+ion-icon{
+    margin-left: 160px;
+    margin-top: 5px;
+    height: 30px;
+    width: 30px;
+    color: white;
+    fill: transparent;
+}
+.food1:hover .favorite-button{
+    opacity: 90%;
+    color: #FF7F00;
+}
+.food2:hover .favorite-button{
+    opacity: 90%;
+    color: #FF7F00;
+}
+.food3:hover .favorite-button{
+    opacity: 90%;
+    color: #FF7F00;
+}
+.food4:hover .favorite-button{
+    opacity: 90%;
+    color: #FF7F00;
+}
+.food5:hover .favorite-button{
+    opacity: 90%;
+    color: #FF7F00;
+}
+.food6:hover .favorite-button{
+    opacity: 90%;
+    color: #FF7F00;
+}
+/* .food-pic{
+    height: 100%;
+    padding-top: 20px;
+    padding-left: 25px;
+    position: relative;
+} */
+.food1{
+    background-image: url('/images/crispy-fried-chicken-plate-with-salad-carrot.jpg');
+    background-attachment: initial;
+    background-size: cover;
+    position: relative;
+}
+.food1:hover{
+    background-size: 180%;
+    background-repeat: no-repeat;
+    background-clip: initial;
+
+}
+
+.food2{
+    background-image: url('/images/chicken-skewers-with-slices-sweet-peppers-dill\ \(1\).jpg');
+    background-attachment: initial;
+    background-size: cover;
+    position: relative;
+}
+.food2:hover{
+    background-size: 180%;
+    background-repeat: no-repeat;
+    background-clip: initial;
+    transition: 1s;
+    
+
+}
+
+.food3{
+    background-image: url('/images/wallpaperflare.com_wallpaper\ \(1\).jpg');
+    background-attachment: initial;
+    background-size: cover;
+    position: relative;
+
+}
+.food3:hover{
+    background-size: 210%;
+    background-repeat: no-repeat;
+    background-clip: initial;
+    transition: 1s;
+}
+
+.food4{
+    background-image: url('/images/wallpaperflare.com_wallpaper\ \(4\).jpg');
+    background-attachment: initial;
+    background-size: cover;
+    position: relative;
+}
+.food4:hover{
+    background-size: 180%;
+    background-repeat: no-repeat;
+    background-clip: initial;
+    transition: 1s;
+
+}
+
+.food5{
+    background-image: url('/images/wallpaperflare.com_wallpaper\ \(5\).jpg');
+    background-attachment: initial;
+    background-size: cover;
+    position: relative;
+}
+.food5:hover{
+    background-size: 180%;
+    background-repeat: no-repeat;
+    background-clip: initial;
+    transition: 1s;
+
+}
+
+.food6{
+    background-image: url('/images/wallpaperflare.com_wallpaper\ \(6\).jpg');
+    background-attachment: initial;
+    background-size: cover;
+    position: relative;
+}
+.food6:hover{
+    background-size: 210%;
+    background-repeat: no-repeat;
+    background-clip: initial;
+    transition: 1s;
+
+}
+.description-div{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 99.99%, rgba(217, 217, 217, 0.54) 100%);
+    backdrop-filter: blur(1px);
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    border-radius: 20px;
+    
+}
+.description-div p{
+    text-align: right;
+    color: white;
+    top: -30px;
+    font-family: "catamaran";
+    font-weight: 200;
+    width: 170px;
+    margin-left: 50px;
+    position: absolute;
+}
+.description-div h3{
+    color: #FF7F00;
+    top: -10px;
+    left: 5px;
+    position: absolute;
+    font-family: "catamaran";
+
+}
+.description-div button{
+    font-family: "catamaran";
+    top: 45px;
+    position: absolute;
+    text-decoration: none;
+    color: #ffffff;
+    left: 140px;
+    fill: rgba(0, 0, 0, 0);
+    stroke: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #00000000;
+    cursor: pointer;
+}
+.description-div button:hover{
+    color: black;
+    background-color: #FF7F00;
+    border: none;
+}
+
+ .favorite-button .active{
+    opacity: 100%;
+    fill: #FF7F00;
+}
+@-webkit-keyframes like {
+    0%   { transform: scale(1); }
+    90%   { transform: scale(1.2); }
+    100% { transform: scale(1.1); }
+  }

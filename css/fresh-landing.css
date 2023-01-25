@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Camataran';
+    src: url("../Catamaran/static/Catamaran-Medium.ttf");
+}
+
+
+body{
+    background-color: #FF7F00;
+    justify-content: center;
+}
+
+
+
+button{
+    background-color: white;
+    border-radius: 20px;
+    color: #FF7F00;
+    border: none;
+    width: 120px;
+    height: 40px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 180px;
+    font-family: 'Camataran';
+    
+}
+button:hover{
+    background-color: #ff8000;
+    border: 1px solid black;
+    color: black;
+    transition: 500ms;
+}
+img{
+    width: 200px;
+    margin: auto;
+    margin-top: 150px;
+    
+}
+img:hover{
+   width: 220px;
+   transition: 500ms;
+}
+h1{
+    font-family: 'Camataran';
+    color: white;
+}
+.stroker{
+    color: #FF7F00;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.dark{
+    color: black;
+    
+}
+p{
+    color: black;
+    font-family: 'Camataran';
+}
+.white{
+    color: white;
+    font-weight: 700;
+}
+
+

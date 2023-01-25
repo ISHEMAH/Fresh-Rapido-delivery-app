@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Camataran';
+    src: url("../Catamaran/static/Catamaran-Medium.ttf");
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+.box{
+    max-width: auto;
+    width: 300px;
+    vertical-align: middle;
+    height: 400px;
+    background-color: #FF7F00;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: auto;
+}.logo{
+    max-width: auto;
+    width: 480px;
+    vertical-align: middle;
+    margin: auto;
+    height: 280px;
+    padding: auto;
+}
+img{
+    width: 75%;
+    margin-left: 40px;
+}
+.info::after{
+    color: black;
+    opacity: 100%;
+}
+
+.info{
+    width: 200px;
+    height: 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    opacity: 70%;
+    font-family: 'Camataran';
+    
+    
+}
+.info:hover{
+    opacity: 90%;
+    border: 2px solid rgb(0, 0, 0);
+}
+.info:focus{
+    border-bottom: 3px solid rgb(55, 196, 55);
+    transition: 1s;
+    
+}
+
+.info:focus{
+    opacity: 100%;
+    outline: none;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    color: black;
+    font-weight: 500;
+}
+.info:focus::after{
+    background-color: aqua;
+}
+.sign-up{
+    border-radius: 10px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.836);
+    font-weight: 900;
+    font-family: 'Camataran';
+    background: linear-gradient(to left, rgb(255, 255, 255) 50%,  rgb(74, 190, 74) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+.sign-up:hover{
+    color: white;
+    background-position: left;
+}
+p{
+    color: white;
+    font-family: 'Camataran';
+}
+
+a{
+    color: rgb(0, 104, 99);
+    font-family: 'Camataran';
+    font-size: larger;
+    font-weight: 600;
+}
+a:hover{
+color: #6cf285;
+}

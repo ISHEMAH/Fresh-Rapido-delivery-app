@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Camataran';
+    src: url("../Catamaran/static/Catamaran-Medium.ttf");
+}
+
+body {
+        background-image: url("../images/cocktail.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+.box{
+    position: static;
+    max-width: auto;
+    width: 300px;
+    vertical-align: middle;
+    height: 400px;
+    border-radius: 20px;
+    border: 3px solid #FF7F00;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    margin-top: 100px;
+}
+.info::after{
+    color: black;
+    opacity: 100%;
+}
+
+.info{
+    width: 200px;
+    height: 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    opacity: 4
+    0%;
+    font-family: 'Camataran';
+    
+    
+}
+.info:hover{
+    opacity: 90%;
+    border: 2px solid rgb(0, 0, 0);
+}
+.info:focus{
+    border-bottom: 3px solid rgb(55, 196, 55);
+    transition: 1s;
+    
+}
+
+.info:focus{
+    opacity: 100%;
+    outline: none;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    color: black;
+    font-weight: 500;
+}
+
+.login{
+    border-radius: 10px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.836);
+    font-weight: 900;
+    font-family: 'Camataran';
+    background: linear-gradient(to left, rgb(255, 255, 255) 50%,  rgb(74, 190, 74) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+.login:hover{
+    color: white;
+    background-position: left;
+}
+p{
+    color: white;
+    font-family: 'Camataran';
+}
+
+a{
+    margin-top: 60px;
+    color: rgb(190, 104, 0);
+    font-family: 'Camataran';
+    font-size: larger;
+    font-weight: 600;
+}
+a:hover{
+color:  rgb(74, 190, 74);
+}
+
+img{
+    justify-content: center;
+    width: 200px;
+    height: 130px;
+    margin: auto;
+    stroke: none;
+    
+}
+
